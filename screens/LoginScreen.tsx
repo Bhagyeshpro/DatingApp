@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, StatusBar, ImageBackground } from 'react-native';
-// import { Ionicons } from "@expo/vector-icons";
+import  Ionicons  from "react-native-vector-icons/Ionicons";
 
 export default function LoginScreen() {
     const [email, setEmail] = useState('');
@@ -14,7 +14,7 @@ export default function LoginScreen() {
         <ImageBackground source={{ uri: "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"}} style={styles.container}>
             <StatusBar hidden />
             <View style={styles.logoContainer}>
-                {/* <Ionicons name="" size={64} color="#fff" /> */}
+                <Ionicons name="md-lock-closed" size={44} color="#fff" />
                 <Text style={styles.logoText}>Simply Date</Text>
             </View>
             <View style={styles.formContainer}>
