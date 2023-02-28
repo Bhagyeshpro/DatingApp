@@ -4,7 +4,7 @@ import React from 'react'
 const App = () => {
   return (
     <View>
-      <Text>Dating App</Text>
+      <Text>Swipe Animation</Text>
     </View>
   )
 }
